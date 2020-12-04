@@ -20,7 +20,7 @@ INSERT INTO question_answers(id, text, correct_answer) VALUES(2, 'El inge bolio'
 INSERT INTO question_answers(id, text, correct_answer) VALUES(2, 'yo', 0);
 
 -- Configuración predefinida
-INSERT INTO configurations(number_questions, dificulty, number_tracks, tracks_enabled) VALUES(5, 'Facil', 0, 0); 
+INSERT INTO configurations(number_questions, dificulty, number_tracks, tracks_enabled) VALUES(5, 'Facil', 0, 0);
 
 -- Todos los temas activados
 
@@ -34,24 +34,24 @@ INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,6);
 
 -- Configuración predefinida
 
+-- Hola mundo
 
+-- Consultas generales del juego
 
--- Consultas generales del juego 
+--Mostrar temas del juego
+SELECT * FROM themes;
 
---Mostrar temas del juego 
-SELECT * FROM themes; 
-
---Mostrar respuestas de una pregunta el 1 es el id de la pregunta 
+--Mostrar respuestas de una pregunta el 1 es el id de la pregunta
 SELECT text, correct_answer FROM question_answers WHERE id=1;
 
 
 --Mostrar la respuesta correcta
-SELECT text, correct_answer FROM question_answers WHERE id=1 and correct_answer=1; 
+SELECT text, correct_answer FROM question_answers WHERE id=1 and correct_answer=1;
 
 
---Mostrar preguntas por tema 
+--Mostrar preguntas por tema
 SELECT * FROM questions WHERE theme_id=4;
- 
+
 
 --INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,1);
 --INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,2);
