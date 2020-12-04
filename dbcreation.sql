@@ -28,6 +28,7 @@ CREATE TABLE [configurations](
   [number_tracks] INTEGER NOT NULL,
   [tracks_enabled] BOOLEAN NOT NULL
 );
+-- Tabla de temas seleccionadas
 CREATE TABLE [configuration_themes](
   [id_configuration] INTEGER REFERENCES [configurations](id_configuration),
   [id_theme] INTEGER REFERENCES [themes](id)
