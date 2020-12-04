@@ -34,7 +34,7 @@ INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,6);
 
 -- Configuración predefinida
 
--- Hola mundo
+-- Adios mundo
 
 -- Consultas generales del juego
 
