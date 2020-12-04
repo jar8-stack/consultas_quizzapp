@@ -1,12 +1,12 @@
-﻿-- Diseñar la estructura de la base de datos 
+﻿-- Diseñar la estructura de la base de datos
 -- Diseñar los escenarios
 -- Ejecutamos los querys de los cuales extraeremos la base de datos
 --tabla de  preguntas
--- tabla de temas 
--- tabla de configuración 
--- tabla de juego 
+-- tabla de temas
+-- tabla de configuración
+-- tabla de juego
 -- TEMAS DE PREGUNTAS
--- 
+--
 DROP TABLE IF EXISTS [configuration_themes];
 DROP TABLE IF EXISTS [usuario];
 DROP TABLE IF EXISTS [question_answers];
@@ -16,7 +16,7 @@ DROP TABLE IF EXISTS [configurations];
 -- Tabla de usuarios
 CREATE TABLE [usuario](
   [id_usuario] INTEGER PRIMARY KEY AUTOINCREMENT,
-  [nombre_usuario] INTEGER NOT NULL,
+  [nombre_usuario] TEXT UNIQUE NOT NULL,
   [score_usuario] INTEGER NOT NULL,
   [id_configuration] INTEGER REFERENCES [configurations] (id_configuration)
 );
