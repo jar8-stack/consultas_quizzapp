@@ -36,7 +36,6 @@ INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,5);
 INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,6);
 
 
-
 -- Consultas generales del juego
 
 --Mostrar temas del juego
