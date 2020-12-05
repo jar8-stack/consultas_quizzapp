@@ -35,6 +35,10 @@ INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,4);
 INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,5);
 INSERT INTO[configuration_themes](id_configuration,id_theme) VALUES (1,6);
 
+-- Insertar usuario
+INSERT INTO usuario(nombre_usuario, score_usuario, id_configuration) VALUES('usuario_prueba', 0, 1);
+
+
 
 -- Consultas generales del juego
 
