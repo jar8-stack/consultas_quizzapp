@@ -22,16 +22,7 @@ INSERT INTO usuario(nombre_usuario, score_usuario, id_configuration) VALUES('usu
 
 
 
--- PLANYILLA ARTE
--- Pregunta de Arte #
-INSERT INTO questions(theme_id, text) VALUES(1, '¿?');
--- Respuestas de Pregunta de Arte #
-INSERT INTO question_answers(id, text, correct_answer) VALUES(1, '', 1);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(1, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(1, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(1, '', 0);
 
--- PLANYILLA ARTE
 
 
 -- Pregunta de Arte 1
@@ -129,16 +120,7 @@ INSERT INTO question_answers(id, text, correct_answer) VALUES(1, 'Siglo XIII', 0
 INSERT INTO question_answers(id, text, correct_answer) VALUES(1, 'Siglo XXI', 0);
 
 
--- PLANYILLA CIENCIA
--- Pregunta de Ciencia #
-INSERT INTO questions(theme_id, text) VALUES(2, '');
--- Respuestas de Pregunta de Ciencia #
-INSERT INTO question_answers(id, text, correct_answer) VALUES(2, '', 1);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(2, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(2, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(2, '', 0);
 
--- PLANYILLA CIENCIA
 
 
 -- Pregunta de Ciencia 1
@@ -247,16 +229,6 @@ INSERT INTO question_answers(id, text, correct_answer) VALUES(2, 'De oxido y pot
 
 
 
--- PLANYILLA CINE
--- Pregunta de Cine #
-INSERT INTO questions(theme_id, text) VALUES(3, '');
--- Respuestas de Pregunta de Cine #
-INSERT INTO question_answers(id, text, correct_answer) VALUES(3, '', 1);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(3, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(3, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(3, '', 0);
-
--- PLANYILLA CINE
 
 
 
@@ -359,17 +331,6 @@ INSERT INTO question_answers(id, text, correct_answer) VALUES(3, 'Ningún sistem
 INSERT INTO question_answers(id, text, correct_answer) VALUES(3, 'Code porsuite', 0);
 INSERT INTO question_answers(id, text, correct_answer) VALUES(3, 'Duro de matar', 0);
 
-
--- PLANYILLA Historia
--- Pregunta de Historia #
-INSERT INTO questions(theme_id, text) VALUES(4, '');
--- Respuestas de Pregunta de Historia #
-INSERT INTO question_answers(id, text, correct_answer) VALUES(4, '', 1);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(4, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(4, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(4, '', 0);
-
--- PLANYILLA Historia
 
 
 
@@ -474,16 +435,7 @@ INSERT INTO question_answers(id, text, correct_answer) VALUES(4, 'Tigris', 0);
 INSERT INTO question_answers(id, text, correct_answer) VALUES(4, 'Éufrates', 0);
 
 
--- PLANYILLA Programacion
--- Pregunta de Programacion #
-INSERT INTO questions(theme_id, text) VALUES(5, '');
--- Respuestas de Pregunta de Programacion #
-INSERT INTO question_answers(id, text, correct_answer) VALUES(5, '', 1);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(5, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(5, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(5, '', 0);
 
--- PLANYILLA Programacion
 
 
 
@@ -583,16 +535,7 @@ INSERT INTO question_answers(id, text, correct_answer) VALUES(5, 'Kivy', 0);s
 
 
 
--- PLANYILLA Cultura general
--- Pregunta de Cultura general  #
-INSERT INTO questions(theme_id, text) VALUES(6, '');
--- Respuestas de Pregunta de cultura general #
-INSERT INTO question_answers(id, text, correct_answer) VALUES(6, '', 1);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(6, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(6, '', 0);
-INSERT INTO question_answers(id, text, correct_answer) VALUES(6, '', 0);
 
--- PLANYILLA general
 
 
 
